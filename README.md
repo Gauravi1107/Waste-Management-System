@@ -73,15 +73,15 @@ Asks the user for multiple items
 
 For each item:
 
-. Converts to lowercase
+ Converts to lowercase
 
-. Checks keywords
+ Checks keywords
 
-. Finds the matching waste category
+ Finds the matching waste category
 
-. Looks up bin number
+ Looks up bin number
 
-. Prints whether item is accepted and where to send it
+ Prints whether item is accepted and where to send it
 
 Repeats for all items
 
@@ -100,4 +100,5 @@ Makes the project look more complete and professional.
 
 ## OUTPUT:
 <img width="1847" height="722" alt="Screenshot 2025-11-25 010026" src="https://github.com/user-attachments/assets/bcfcbb65-90da-4ab9-be0d-fd3b0e3eba8d" />
+
 
