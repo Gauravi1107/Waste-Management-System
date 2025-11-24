@@ -1,20 +1,10 @@
-# Waste-Management-System
+Waste-Management-System
+OVERVIEW
+The Smart Waste Sorting System operates through a Python command-line interface which performs automatic waste classification for Plastic Paper Metal Glass and Compost categories. The program uses keyword detection to analyse item descriptions which helps it determine the proper sorting bin for each item. If the item cannot be identified, it marks it as Unknown and rejects it.
 
+The project provides a basic understanding of AI logic and string processing and decision-making techniques through Python programming.
 
-# OVERVIEW
-
-The Smart Waste Sorting System operates through a Python command-line
-interface which performs automatic waste classification for Plastic
-Paper Metal Glass and Compost categories. The program uses keyword
-detection to analyse item descriptions which helps it determine the
-proper sorting bin for each item. If the item cannot be identified, it
-marks it as Unknown and rejects it.
-
-The project provides a basic understanding of AI logic and string
-processing and decision-making techniques through Python programming.
-
-## FEATURES
-
+FEATURES
 Automatic item classification based on description keywords
 
 Five waste categories + Unknown category
@@ -27,8 +17,7 @@ Allows the user to enter multiple items at once
 
 Simple to test and modify
 
-## TECHNOLOGIES USED
-
+TECHNOLOGIES USED
 Python 3.13
 
 Built-in functions (input, print, conditionals, loops)
@@ -37,84 +26,72 @@ No external libraries required
 
 Installation & Running the Project
 
-## PREREQUISITES
-
+PREREQUISITES
 Install Python 3.13
 
 Clone the Repository git clone
 
-Navigate to the Project Folder 
+Navigate to the Project Folder
 
 Run the Program
 
 waste-generator.py
 
-## TESTING INSTRUCTIONS
-
+TESTING INSTRUCTIONS
 Run the script.
 
 Enter the number of items you want to test.
 
 Provide a description for each item, for example:
 
-\"red crinkly bottle\" → Plastic
+"red crinkly bottle" → Plastic
 
-\"newspaper\" → Paper
+"newspaper" → Paper
 
-\"shiny can\" → Metal
+"shiny can" → Metal
 
-\"transparent jar\" → Glass
+"transparent jar" → Glass
 
-\"banana peel\" → Compost
+"banana peel" → Compost
 
-\"stone\" → Unknown
+"stone" → Unknown
 
 Observe the classification messages printed by the system.
 
-## HOW IT WORKS
+HOW IT WORKS
+The program does the following:
 
-**The program does the following:**
+Stores bin numbers for each waste category
 
-1.  Stores bin numbers for each waste category
+Asks the user for multiple items
 
-2.  Asks the user for multiple items
+For each item:
 
-3.  For each item:
+. Converts to lowercase
 
-    .  Converts to lowercase
+. Checks keywords
 
-    .  Checks keywords
+. Finds the matching waste category
 
-    .   Finds the matching waste category
+. Looks up bin number
 
-    .   Looks up bin number
+. Prints whether item is accepted and where to send it
 
-    .   Prints whether item is accepted and where to send it
+Repeats for all items
 
-4.  Repeats for all items
+CUSTOMIZATION IDEAS
+After all items are classified, display a final summary showing how many items were sorted into each category.
+This makes the output clearer and helps users understand the overall distribution of waste.
 
-## CUSTOMIZATION IDEAS
+What it adds:
 
-After all items are classified, display a **final summary** showing how
-many items were sorted into each category.\
-This makes the output clearer and helps users understand the overall
-distribution of waste.
+Gives a clean final report
 
-**What it adds:**
+Helps users track sorting efficiency.
 
--   Gives a **clean final report**
+Makes the project look more complete and professional.
 
--   Helps users track sorting efficiency.
-
--   Makes the project look more complete and professional.
-
-## OUTPUT:
-
-<img width="1847" height="722" alt="Screenshot 2025-11-25 010026" src="https://github.com/user-attachments/assets/f5ccd271-1860-48b7-88fd-a5567b3647e3" />
-
-
-
-
-## LICENSE
-
+OUTPUT:
+Screenshot 2025-11-25 010026
+LICENSE
 Free to use and modify for personal and educational purposes
