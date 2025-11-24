@@ -108,9 +108,12 @@ distribution of waste.
 
 -   Makes the project look more complete and professional.
 
-## AUTHOR
+## OUTPUT:
 
- Created as a simple tool to help users organize their waste items.
+<img width="1847" height="722" alt="Screenshot 2025-11-25 010026" src="https://github.com/user-attachments/assets/f5ccd271-1860-48b7-88fd-a5567b3647e3" />
+
+
+
 
 ## LICENSE
 
