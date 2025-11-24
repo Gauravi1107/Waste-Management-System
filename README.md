@@ -81,15 +81,15 @@ Observe the classification messages printed by the system.
 
 3.  For each item:
 
-    -   Converts to lowercase
+    .  Converts to lowercase
 
-    -   Checks keywords
+    .  Checks keywords
 
-    -   Finds the matching waste category
+    .   Finds the matching waste category
 
-    -   Looks up bin number
+    .   Looks up bin number
 
-    -   Prints whether item is accepted and where to send it
+    .   Prints whether item is accepted and where to send it
 
 4.  Repeats for all items
 
