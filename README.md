@@ -1,12 +1,10 @@
-# Waste-Management-System
-
-# OVERVIEW
-
+Waste-Management-System
+OVERVIEW
 The Smart Waste Sorting System operates through a Python command-line interface which performs automatic waste classification for Plastic Paper Metal Glass and Compost categories. The program uses keyword detection to analyse item descriptions which helps it determine the proper sorting bin for each item. If the item cannot be identified, it marks it as Unknown and rejects it.
 
 The project provides a basic understanding of AI logic and string processing and decision-making techniques through Python programming.
 
-## FEATURES
+FEATURES
 Automatic item classification based on description keywords
 
 Five waste categories + Unknown category
@@ -19,7 +17,7 @@ Allows the user to enter multiple items at once
 
 Simple to test and modify
 
-## TECHNOLOGIES USED
+TECHNOLOGIES USED
 Python 3.13
 
 Built-in functions (input, print, conditionals, loops)
@@ -28,7 +26,7 @@ No external libraries required
 
 Installation & Running the Project
 
-## PREREQUISITES
+PREREQUISITES
 Install Python 3.13
 
 Clone the Repository git clone
@@ -39,7 +37,7 @@ Run the Program
 
 waste-generator.py
 
-## TESTING INSTRUCTIONS
+TESTING INSTRUCTIONS
 Run the script.
 
 Enter the number of items you want to test.
@@ -60,7 +58,7 @@ Provide a description for each item, for example:
 
 Observe the classification messages printed by the system.
 
-## HOW IT WORKS
+HOW IT WORKS
 The program does the following:
 
 Stores bin numbers for each waste category
@@ -81,7 +79,7 @@ For each item:
 
 Repeats for all items
 
-## CUSTOMIZATION IDEAS
+CUSTOMIZATION IDEAS
 After all items are classified, display a final summary showing how many items were sorted into each category.
 This makes the output clearer and helps users understand the overall distribution of waste.
 
@@ -93,7 +91,7 @@ Helps users track sorting efficiency.
 
 Makes the project look more complete and professional.
 
-## OUTPUT:
-
-<img width="1847" height="722" alt="Screenshot 2025-11-25 010026" src="https://github.com/user-attachments/assets/89438115-34d1-4231-a5b7-0646b1fb357f" />
-
+OUTPUT:
+Screenshot 2025-11-25 010026
+LICENSE
+Free to use and modify for personal and educational purposes
